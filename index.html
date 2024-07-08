@@ -6,11 +6,13 @@
     <title>Cool Website</title>
     <style>
     .size {
-         width: 600px;
+         width: 520px;
          height: 96vh;
          float: right;
          word-wrap: break-word;
-         font-size: 50px;
+         font-size: 40px;
+         background-color: burlywood;
+         
     }
     .outter {
         border: solid black 10px;
@@ -20,9 +22,27 @@
 </head>
 <body style="display: inline-block;">
     <main>
-        <div class="size outter" style="background-color: blue;">Lorem ipsum dolor sit amet.</div>
-        <div class="size" style="background-color: red; border: solid white 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, numquam.</div>
-        <div class="size outter" style="background-color: yellow;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, illum.</div>
+        <!--right side panel-->
+        <div class="size outter">
+            <h1 style="text-align: center; margin-top: 2%;">Extra information</h1>
+            <p style="margin-left: 25px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi, quos voluptas hic amet cum.</p>
+            <p style="margin-left: 25px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ad iusto amet expedita!</p>
+        </div>
+        <!--middle panel-->
+        <div class="size" style="background-color: red; border: solid white 10px; width: 780px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, numquam.</div>
+        <!--left panel-->
+        <div class="size outter">
+            <h1 style="text-align: center; margin-top: 2%;">List of things</h1>
+            <ul style="line-height: 100px; margin-left: 25px">
+                <li>Thing 1</li>
+                <li>Thing 2</li>
+                <li>Thing 3</li>
+                <li>Thing 4</li>
+                <li>Thing 5</li>
+                <li>Thing 6</li>
+                <li>Thing 7</li>
+            </ul>
+        </div>
 
 
     </main>
