@@ -5,16 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
     <style>
-        
-        section:nth-child(1) {
 
-        }
-        section:nth-child(2) {
-
-        }
-        section:nth-child(3) {
-
-        }
         section {
             width: 630px;
             height: 970px;
@@ -23,10 +14,10 @@
         /* first and third section div */
         section > div {
             background-color: #8F5B4A;
-            width: 550px;
+            width: 540px;
             height: 700px;
             margin-top: 210px;
-            margin-left: 30px;
+            margin-left: 35px;
             border: 10px solid #E9767C;
         }
         /* person info*/
@@ -42,7 +33,7 @@
             
 
         }
-         /* second section second div */
+         /* links div */
         div ~ div {
             background-color: #8F5B4A;
             width: 550px;
@@ -57,7 +48,7 @@
             height: 300px;
             width: 300px;
             margin-top: 84px;
-            margin-left: 165px;
+            margin-left: 170px;
         }
         body {
             background-color: #DDD49F;
@@ -69,7 +60,8 @@
         }
         h1 {
             line-height: 2em;
-            margin-top: 20px;
+            margin-top: 15px;
+            text-align: center;
         }
         a {
             text-decoration: none;
@@ -83,6 +75,17 @@
             margin-top: -20px;
             word-spacing: 2em;
         }
+        p ~ li {
+            line-height: 1.5em;
+            margin-left: 20px;
+        }
+        /* nezinau ka dagiau det tai pasiduodu*/
+       .imdone {
+        word-spacing: normal;
+        margin-left: 20px;
+       }
+
+
 
     </style>
 </head>
@@ -90,10 +93,14 @@
     <!--notable tab -->
    <section>
         <div>
+            <h1>Achievments</h1>
             <p>
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, itaque. Consectetur doloremque suscipit officiis laborum vel, maxime necessitatibus nobis tempora. Velit similique neque eum voluptates blanditiis consectetur beatae earum dolore!
+                <li>Finished school</li>
+                <li>Built my own PC</li>
+                <li>Beat Elden ring</li>
+                <li>Deafeated Malenia blade of miquella (she has never known defeat)</li>
+                <li>beat a rank 1500 bot in chess</li>
+                
             </p>
         </div>
    </section>
@@ -123,11 +130,13 @@
     <!--about me-->
    <section>
         <div>
+            <h1>About me</h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam ex saepe velit dicta quis temporibus voluptates optio et adipisci, eum molestiae veritatis? Soluta commodi quibusdam, minima eveniet animi exercitationem!
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nostrum, nesciunt officiis neque, eius deserunt commodi facere delectus labore animi aut assumenda ipsum laborum, unde nisi laudantium est mollitia optio?
+                <p class="imdone">Im just an up an coming master tier 10x developer of every kind of program master of any programming language ever made or to be made.</p>
+                <p class="imdone">God gamer born under the brightest star, built different to an extreme level, absolutely unriveld in any shape or form possible.</p>
+                <p class="imdone">Trully a specimen to be admired for any mortal man that may lay eyes upon me.
+                 I mean look at this page i made its really just beyond anything a mere mortal could create. It's getting hard to come up with any more bizzare and straight up stupid
+                  text so ill stop now</p>
             </p>
         </div>
    </section>
