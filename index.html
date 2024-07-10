@@ -5,44 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
     <style>
+        
         section:nth-child(1) {
             background-color: yellow;
         }
-        section:nth-child(3) {
+        section:nth-child(2) {
             background-color: green;
         }
-        section:nth-child(2) {
+        section:nth-child(3) {
             background-color: red;
+        }
+        section {
+            width: 630px;
+            height: 970px;
+            float: left
+        }
+        /* first and third section div */
+        section > div {
+            background-color: blue;
+            width: 550px;
+            height: 700px;
+            margin-top: 250px;
+            margin-left: 40px;
+        }
+        /* second section div */
+        img + div  {
+            background-color: orange;
+            width: 550px;
+            height: 200px;
+            margin-top: 0px;
+            margin-left: 40px;
+            text-align: center;
+
+        }
+         /* second section second div */
+        div ~ div {
+            background-color: purple;
+            width: 550px;
+            height: 300px;
+            margin-top: 25px;
+            margin-left: 40px;
+        }
+        img {
+            background-color: brown;
+            height: 300px;
+            width: 300px;
+            margin-top: 100px;
+            margin-left: 165px;
+        }
+        body {
+            display: inline-block;
+            margin-left: 12px;
         }
     </style>
 </head>
 <body>
     <!--notable tab -->
    <section>
+    <div>
         <p>
-            asd
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda beatae, perferendis quisquam enim vero quae sit aperiam, delectus repellendus possimus eius iure doloribus tempora, exercitationem a minima in ex at.
         </p>
         <p>
-            asd
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, itaque. Consectetur doloremque suscipit officiis laborum vel, maxime necessitatibus nobis tempora. Velit similique neque eum voluptates blanditiis consectetur beatae earum dolore!
         </p>
+    </div>
    </section>
        <!-- info and link tab-->
    <section>
+    <img src="profilepic.png" alt="pic">
+    <div>
         <p>
-            asd
+            Firstname Lastname
         </p>
         <p>
-            asd
+            longEmail@email.com
         </p>
+        <p>
+            Up and coming programmer
+        </p>
+    </div>
+    <div>
+        <a href="#">asd</a>
+    </div>
    </section>
     <!--about me-->
    <section>
+    <div>
         <p>
-            asd
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam ex saepe velit dicta quis temporibus voluptates optio et adipisci, eum molestiae veritatis? Soluta commodi quibusdam, minima eveniet animi exercitationem!
         </p>
         <p>
-            asd
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nostrum, nesciunt officiis neque, eius deserunt commodi facere delectus labore animi aut assumenda ipsum laborum, unde nisi laudantium est mollitia optio?
         </p>
+    </div>
    </section>
 </body>
 </html>
