@@ -7,13 +7,13 @@
     <style>
         
         section:nth-child(1) {
-            background-color: yellow;
+
         }
         section:nth-child(2) {
-            background-color: green;
+
         }
         section:nth-child(3) {
-            background-color: red;
+
         }
         section {
             width: 630px;
@@ -22,83 +22,114 @@
         }
         /* first and third section div */
         section > div {
-            background-color: blue;
+            background-color: #8F5B4A;
             width: 550px;
             height: 700px;
-            margin-top: 250px;
-            margin-left: 40px;
+            margin-top: 210px;
+            margin-left: 30px;
+            border: 10px solid #E9767C;
         }
-        /* second section div */
+        /* person info*/
         img + div  {
-            background-color: orange;
+            background-color: #8F5B4A;
             width: 550px;
             height: 200px;
             margin-top: 0px;
-            margin-left: 40px;
+            margin-left: 30px;
             text-align: center;
+            line-height: 1em;
+            border: 10px solid #E9767C;
+            
 
         }
          /* second section second div */
         div ~ div {
-            background-color: purple;
+            background-color: #8F5B4A;
             width: 550px;
-            height: 300px;
-            margin-top: 25px;
-            margin-left: 40px;
+            height: 295px;
+            margin-top: 5px;
+            margin-left: 30px;
+            text-align: center;
+            border: 10px solid #E9767C;
+
         }
         img {
-            background-color: brown;
             height: 300px;
             width: 300px;
-            margin-top: 100px;
+            margin-top: 84px;
             margin-left: 165px;
         }
         body {
+            background-color: #DDD49F;
             display: inline-block;
             margin-left: 12px;
+            font-family: arial;
+            font-size: 30px;
+            color: #F6AAD0;
         }
+        h1 {
+            line-height: 2em;
+            margin-top: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: #F6AAD0;
+            line-height: 2em;
+            
+        }
+        /* p for the links modification*/
+        h1 ~ p {
+            background-color: #8F5B4A;
+            margin-top: -20px;
+            word-spacing: 2em;
+        }
+
     </style>
 </head>
 <body>
     <!--notable tab -->
    <section>
-    <div>
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda beatae, perferendis quisquam enim vero quae sit aperiam, delectus repellendus possimus eius iure doloribus tempora, exercitationem a minima in ex at.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, itaque. Consectetur doloremque suscipit officiis laborum vel, maxime necessitatibus nobis tempora. Velit similique neque eum voluptates blanditiis consectetur beatae earum dolore!
-        </p>
-    </div>
+        <div>
+            <p>
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, itaque. Consectetur doloremque suscipit officiis laborum vel, maxime necessitatibus nobis tempora. Velit similique neque eum voluptates blanditiis consectetur beatae earum dolore!
+            </p>
+        </div>
    </section>
        <!-- info and link tab-->
    <section>
-    <img src="profilepic.png" alt="pic">
-    <div>
-        <p>
-            Firstname Lastname
-        </p>
-        <p>
-            longEmail@email.com
-        </p>
-        <p>
-            Up and coming programmer
-        </p>
-    </div>
-    <div>
-        <a href="#">asd</a>
-    </div>
+        <img src="profilepic.png" alt="pic">
+        <div>
+            <p>
+                Firstname Lastname
+            </p>
+            <p>
+                longEmail@email.com
+            </p>
+            <p>
+                Up and coming programmer
+            </p>
+        </div>
+        <div>
+            <h1>Notable projects</h1>
+            <p>
+            <a href="https://zydrunask.github.io/404_dizainas/">404_labirinth</a><br/>
+            <a href="https://zydrunask.github.io/404_ufo/">404_ufo</a>
+            <a href="https://zydrunask.github.io/easy-money/">easy-money</a>
+            </p>
+        </div>
    </section>
     <!--about me-->
    <section>
-    <div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam ex saepe velit dicta quis temporibus voluptates optio et adipisci, eum molestiae veritatis? Soluta commodi quibusdam, minima eveniet animi exercitationem!
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nostrum, nesciunt officiis neque, eius deserunt commodi facere delectus labore animi aut assumenda ipsum laborum, unde nisi laudantium est mollitia optio?
-        </p>
-    </div>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam ex saepe velit dicta quis temporibus voluptates optio et adipisci, eum molestiae veritatis? Soluta commodi quibusdam, minima eveniet animi exercitationem!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nostrum, nesciunt officiis neque, eius deserunt commodi facere delectus labore animi aut assumenda ipsum laborum, unde nisi laudantium est mollitia optio?
+            </p>
+        </div>
    </section>
 </body>
 </html>
