@@ -1,0 +1,78 @@
+section {
+    width: 625px;
+    height: 1000px;
+    float: left
+}
+/* first and third section div */
+section > div {
+    background-color: #8F5B4A;
+    width: 540px;
+    height: 700px;
+    margin-top: 210px;
+    margin-left: 35px;
+    border: 10px solid #E9767C;
+}
+/* person info*/
+img + div  {
+    background-color: #8F5B4A;
+    width: 550px;
+    height: 200px;
+    margin-top: 0px;
+    margin-left: 30px;
+    text-align: center;
+    line-height: 1em;
+    border: 10px solid #E9767C;
+    
+
+}
+ /* links div */
+div ~ div {
+    background-color: #8F5B4A;
+    width: 550px;
+    height: 295px;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-align: center;
+    border: 10px solid #E9767C;
+
+}
+img {
+    height: 300px;
+    width: 300px;
+    margin-top: 84px;
+    margin-left: 170px;
+}
+body {
+    background-color: #DDD49F;
+    display: inline-block;
+    margin-left: 12px;
+    font-family: arial;
+    font-size: 30px;
+    color: #F6AAD0;
+}
+h1 {
+    line-height: 2em;
+    margin-top: 15px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #F6AAD0;
+    line-height: 2em;
+    
+}
+/* p for the links modification*/
+h1 ~ p {
+    background-color: #8F5B4A;
+    margin-top: -20px;
+    word-spacing: 2em;
+}
+p ~ li {
+    line-height: 1.5em;
+    margin-left: 20px;
+}
+/* nezinau ka dagiau det*/
+.imdone {
+word-spacing: normal;
+margin-left: 20px;
+}
